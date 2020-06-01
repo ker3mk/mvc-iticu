@@ -55,7 +55,7 @@ public class MusicPlayerGui implements ActionListener, MusicTempoObserver {
         controlPanel = new JPanel(new GridLayout(1, 2));
 
         menuBar = new JMenuBar();
-        menu = new JMenu("DJ Control");
+        menu = new JMenu("Music Player");
         startMenuItem = new JMenuItem("Start");
         menu.add(startMenuItem);
         startMenuItem.addActionListener(new ActionListener() {
